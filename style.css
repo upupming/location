@@ -1,0 +1,18 @@
+body {
+  font-size: 70%;
+}
+
+div.center {
+  padding: 25%;
+  text-align: center;
+}
+
+button {
+  color: blueviolet;
+}
+
+p {
+  padding: 10%;
+  color: coral;
+  font-size: 120%;
+}
