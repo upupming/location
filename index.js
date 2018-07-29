@@ -2,9 +2,9 @@ let x = document.getElementById("result");
 
 function showPosition(position) {
   console.log(position);
-  x.innerHTML = x.innerHTML +  '<hr> 浏览器 Geo API <hr>' + "纬度：" + position.coords.latitude + 
-    "<br><br>经度：" + position.coords.longitude + 
-    "<br><br>精度：" + position.coords.accuracy + "米";
+  x.innerHTML = x.innerHTML +  '<hr> 浏览器 Geo API <br><br>' + "纬度：" + position.coords.latitude + 
+    "<br>经度：" + position.coords.longitude + 
+    "<br>精度：" + position.coords.accuracy + "米";
 }
 
 function getLocation() {
@@ -25,7 +25,7 @@ function getLocation() {
 
 function showTecentPosition(position) {
   console.log(position);
-  x.innerHTML = x.innerHTML + '<hr> 腾讯地图 API <hr>' + "纬度：" + position.lat + 
-    "<br><br>经度：" + position.lng + 
-    "<br><br>精度：" + position.accuracy + "米";
+  x.innerHTML = x.innerHTML + '<hr> 腾讯地图 API <br><br>' + "纬度：" + position.lat + 
+    "<br>经度：" + position.lng + 
+    "<br>精度：" + position.accuracy + "米";
 }
